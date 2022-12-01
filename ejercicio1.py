@@ -18,9 +18,17 @@ import os
 import random
 import re
 import sys
+import numpy as np
 
 # Complete the simpleArraySum function below.
+M = np.matrix([1, 2, 3],[4, 5, 6], [7, 8, 9])
+print(np.sum(M))
+
+
+
 def simpleArraySum(ar):
+
+    
     
     if __name__ == '__main__':
     
@@ -35,3 +43,5 @@ def simpleArraySum(ar):
         fptr.write(str(result) + '\n')
 
         fptr.close()
+
+
