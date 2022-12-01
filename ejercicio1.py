@@ -23,6 +23,7 @@ import sys
 def simpleArraySum(ar):
     
 if __name__ == '__main__':
+    
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     ar_count = int(input().strip())
