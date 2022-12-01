@@ -22,16 +22,16 @@ import sys
 # Complete the simpleArraySum function below.
 def simpleArraySum(ar):
     
-if __name__ == '__main__':
+    if __name__ == '__main__':
     
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    ar_count = int(input().strip())
+        ar_count = int(input().strip())
 
-    ar = list(map(int, input().rstrip().split()))
+        ar = list(map(int, input().rstrip().split()))
 
-    result = simpleArraySum(ar)
+        result = simpleArraySum(ar)
 
-    fptr.write(str(result) + '\n')
+        fptr.write(str(result) + '\n')
 
-    fptr.close()
+        fptr.close()
